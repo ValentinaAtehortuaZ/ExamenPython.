@@ -9,8 +9,6 @@ time=0
 i=0
 for i in range(ciclistas):
     
-   
-    
     name=input('Digite el nombre del ciclista: ')
     age=int(input('Digite la age: '))
     country=input('Digite el country: ')
