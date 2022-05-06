@@ -6,10 +6,10 @@ class Ciclista:
         self.country=country
         self.time=time
 
-    def calcularTiempoMayor(self):
-        mayor=0
-        if(mayor<self.time):
-            mayor=self.time
+    def calcularTiempoMenor(self):
+        menor=10000
+        if(menor>self.time):
+            menor=self.time
 
             datosCiclista={
               self.name,

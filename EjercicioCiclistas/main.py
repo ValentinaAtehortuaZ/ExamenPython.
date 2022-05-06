@@ -15,6 +15,6 @@ for i in range(ciclistas):
     time=int(input('Digite el time (en minutos) recorrido por el ciclista: '))
 
     ciclista=Ciclista(name, age, country, time)
-    tiempoMayor=ciclista.calcularTiempoMayor()
+    tiempoMenor=ciclista.calcularTiempoMenor()
 
-print(tiempoMayor)
+print(tiempoMenor)
